@@ -1,0 +1,135 @@
+[
+    {
+      "id": 1,
+      "image": "https://i.ibb.co/5FksmQq/health-1.jpg",
+      "title": "Medical Supplies for Children",
+      "group": "Health",
+      "description": "Help provide essential medical supplies and support to children in need. Your donation can save lives.",
+      "donation_amount": 25.00,
+      "card_bg_color": "#ccccff",
+      "category_bg_color": "#9D91F5",
+      "text_color": "#6666cc"
+    },
+    {
+      "id": 2,
+      "image": "https://i.ibb.co/ZVvrLwC/education-1.jpg",
+      "title": "Educational Scholarships",
+      "group": "Education",
+      "description": "Support educational scholarships for underprivileged students. Your donation can empower the next generation.",
+      "donation_amount": 75.00,
+      "card_bg_color": "#ffcccc",
+      "category_bg_color": "#ff9999",
+      "text_color": "#FA585A"
+    },
+    {
+      "id": 3,
+      "image": "https://i.ibb.co/F839PfK/clothing-1.jpg",
+      "title": "Warm Clothing for Homeless",
+      "group": "Clothing",
+      "description": "Provide warm clothing and essentials to homeless individuals during cold seasons. Your donation can offer comfort.",
+      "donation_amount": 20.00,
+      "card_bg_color": "#99ccff",
+      "category_bg_color": "#66ccff",
+      "text_color": "#3d85c6"
+    },
+    {
+      "id": 4,
+      "image": "https://i.ibb.co/DbB93BQ/food-3.jpg",
+      "title": "Nutritious Meals for Families",
+      "group": "Food",
+      "description": "Donate to provide nutritious meals to families facing food insecurity. Your donation can alleviate hunger.",
+      "donation_amount": 15.00,
+      "card_bg_color": "#ffe599",
+      "category_bg_color": "#ffd966",
+      "text_color": "#bf9000"
+    },
+    {
+      "id": 5,
+      "image": "https://i.ibb.co/mDJJZ1w/food-1.jpg",
+      "title": "Emergency Food Relief",
+      "group": "Food",
+      "description": "Support emergency food relief efforts to help communities in crisis. Your donation can provide immediate relief.",
+      "donation_amount": 25.00,
+      "card_bg_color": "#ffe599",
+      "category_bg_color": "#ffd966",
+      "text_color": "#bf9000"
+    },
+    {
+      "id": 6,
+      "image": "https://i.ibb.co/pQf1KLQ/clothing-2.jpg",
+      "title": "School Uniforms for Children",
+      "group": "Clothing",
+      "description": "Supply school uniforms to children in need, ensuring they have access to education. Your donation can empower them.",
+      "donation_amount": 40.00,
+      "card_bg_color": "#99ccff",
+      "category_bg_color": "#66ccff",
+      "text_color": "#3d85c6"
+    },
+    {
+      "id": 7,
+      "image": "https://i.ibb.co/HrZwGjK/education-2.jpg",
+      "title": "Literacy Programs",
+      "group": "Education",
+      "description": "Promote literacy and education in underserved communities. Your donation can help people access knowledge.",
+      "donation_amount": 30.00,
+      "card_bg_color": "#ffcccc",
+      "category_bg_color": "#ff9999",
+      "text_color": "#FA585A"
+    },
+    {
+      "id": 8,
+      "image": "https://i.ibb.co/QQxh0wB/health-3.jpg",
+      "title": "Mental Health Awareness",
+      "group": "Health",
+      "description": "Support mental health awareness initiatives and break the stigma. Your donation can make a difference in someone's life.",
+      "donation_amount": 50.00,
+      "card_bg_color": "#ccccff",
+      "category_bg_color": "#9D91F5",
+      "text_color": "#6666cc"
+    },
+    {
+      "id": 9,
+      "image": "https://i.ibb.co/dpWwJJY/Hue-Saturation-1.jpg",
+      "title": "Access to Clean Water",
+      "group": "Health",
+      "description": "Provide clean and safe drinking water to communities in need. Your donation can ensure better health for many.",
+      "donation_amount": 35.00,
+      "card_bg_color": "#ccccff",
+      "category_bg_color": "#9D91F5",
+      "text_color": "#6666cc"
+    },   
+    {
+      "id": 10,
+      "image": "https://i.ibb.co/RTNPzr8/education-3.jpg",
+      "title": "Technology in Schools",
+      "group": "Education",
+      "description": "Equip schools with technology for better learning. Your donation can bridge the digital divide for students.",
+      "donation_amount": 60.00,
+      "card_bg_color": "#ffcccc",
+      "category_bg_color": "#ff9999",
+      "text_color": "#FA585A"
+    },   
+    {
+      "id": 11,
+      "image": "https://i.ibb.co/2NZhzf2/clothing-3.jpg",
+      "title": "Shelter for the Needy",
+      "group": "Clothing",
+      "description": "Support shelters and housing for those experiencing homelessness. Your donation can provide a safe haven.",
+      "donation_amount": 55.00,
+      "card_bg_color": "#99ccff",
+      "category_bg_color": "#66ccff",
+      "text_color": "#3d85c6"
+    },   
+    {
+      "id": 12,
+      "image": "https://i.ibb.co/jvmLp2d/food-2.jpg",
+      "title": "Meals for Elderly Citizens",
+      "group": "Food",
+      "description": "Contribute to meal programs for elderly citizens. Your donation can ensure they have access to nourishing meals.",
+      "donation_amount": 10.00,
+      "card_bg_color": "#ffe599",
+      "category_bg_color": "#ffd966",
+      "text_color": "#bf9000"
+    }
+  ]
+  
