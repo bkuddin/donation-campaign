@@ -1,5 +1,7 @@
+import swal from "sweetalert";
+
 const DonationDetailsCard = ({ donation }) => {
-  const {id, image, title, donation_amount, description } = donation || {};
+  const {id, image, title, donation_amount, description, card_bg_color } = donation || {};
 
   const handleDonate = () =>{
 
@@ -17,8 +19,9 @@ const DonationDetailsCard = ({ donation }) => {
       if(!isExists){
         donateArray.push(...donateItems, donation );
         localStorage.setItem('donations', JSON.stringify(donateArray));
+        swal("Good job!", "Thank you so much for your donation. Your generosity means everything to us and to the community we serve.", "success");
       }else{
-        alert('Already exists')
+        swal("Thanks", "You already done this job!", "error");
       }
     }
 
@@ -30,8 +33,8 @@ const DonationDetailsCard = ({ donation }) => {
       <div className="lg:max-w-screen-xl mx-auto relative my-32">
         <img className="w-full rounded-lg" src={image} alt="" />
         <div>
-          <div className="absolute -mt-16 md:-mt-28 w-full py-3 md:py-7 bg-black bg-opacity-40">
-            <button onClick={handleDonate} className="p-2 md:p-4 rounded bg-[#FA585A] text-white font-bold ml-4">
+          <div style={{backgroundColor: `${card_bg_color}`, opacity: '56px'}} className="absolute -mt-16 md:-mt-28 w-full py-3 md:py-7 bg-opacity-25 ">
+            <button onClick={handleDonate} className="p-2 md:p-4 rounded bg-[#FA585A] text-white  font-bold ml-4">
               Donate ${donation_amount}
             </button>
           </div>

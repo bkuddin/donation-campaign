@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import DonationCard from "./DonationCard";
 import { Link } from "react-router-dom";
+import swal from 'sweetalert';
 
 const Donation = () => {
   const [donations, setDonations] = useState([]);

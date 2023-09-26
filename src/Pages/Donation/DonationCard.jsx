@@ -20,7 +20,7 @@ const DonationCard = ({ donation, handleSelectedRemove }) => {
   return (
     <div>
       <div
-        className="relative flex h-[200px] w-full max-w-[48rem] flex-row rounded-xl  bg-clip-border text-gray-700 shadow-md"
+        className="relative flex md:h-[200px] w-full max-w-[48rem] flex-row rounded-xl  bg-clip-border text-gray-700 shadow-md"
         style={{ backgroundColor: `${card_bg_color}` }}
       >
         <div className="relative m-0 w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none  bg-clip-border text-gray-700">
