@@ -11,7 +11,7 @@ const Statistics = () => {
 
   const donateItems = JSON.parse(localStorage.getItem("donations"));
 
-  const myDonationTotal = donateItems.reduce(
+  const myDonationTotal = donateItems?.reduce(
     (prev, current) => prev + current.donation_amount,
     0
   );
