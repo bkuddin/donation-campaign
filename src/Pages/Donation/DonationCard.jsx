@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import PropTypes from 'prop-types'; // ES6
 
 const DonationCard = ({ donation, handleSelectedRemove }) => {
   const {
@@ -91,5 +92,11 @@ const DonationCard = ({ donation, handleSelectedRemove }) => {
     </div>
   );
 };
+
+DonationCard.propTypes ={
+  donation: PropTypes.object.isRequired,
+  handleSelectedRemove: PropTypes.func.isRequired,
+
+}
 
 export default DonationCard;
